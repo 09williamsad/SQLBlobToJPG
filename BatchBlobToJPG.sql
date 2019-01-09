@@ -1,4 +1,4 @@
-CREATE PROCEDURE spImageExport (@query as nvarchar(max)) AS
+CREATE PROCEDURE ImageExport (@query as nvarchar(max)) AS
 BEGIN
     begin
 	   if OBJECT_ID ('tempdb..##TempImageExport') is not null
